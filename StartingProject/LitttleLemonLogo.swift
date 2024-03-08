@@ -6,6 +6,7 @@ struct LittleLemonLogo: View {
             Image("littleLemon")
             .frame(width: 300, height: 100, alignment: .center)      
         }
+        EmptyView()
     }
 }
 
