@@ -3,7 +3,7 @@ import SwiftUI
 struct LocationsView: View {
     
     @EnvironmentObject var model:Model
-    
+    var someThing = ""
     
     var body: some View {
         VStack {
