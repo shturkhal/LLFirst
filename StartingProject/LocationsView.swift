@@ -29,7 +29,7 @@ struct LocationsView: View {
                 .scrollContentBackground(.hidden)
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
-                
+                EmptyView()
             }
             
         }
