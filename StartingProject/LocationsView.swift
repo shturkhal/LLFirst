@@ -5,6 +5,7 @@ struct LocationsView: View {
     @EnvironmentObject var model:Model
     var someThing = ""
     
+    
     var body: some View {
         VStack {
             LittleLemonLogo() // 1
@@ -15,6 +16,8 @@ struct LocationsView: View {
             .padding([.top, .bottom], 8)
             .background(Color.gray.opacity(0.2))
             .cornerRadius(20)
+            
+            EmptyView()
             
             NavigationView {
                 List(model.restaurants) { rest in
